@@ -1,0 +1,43 @@
+/* Centering the container */
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+ 
+}
+
+/* Ensuring the content stays neatly aligned */
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: white solid 0.5mm;
+  width: 800px; /* Fixed width */
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color:#1762be;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:#4CAF50;
+}
+
+.specific-verse {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+}
